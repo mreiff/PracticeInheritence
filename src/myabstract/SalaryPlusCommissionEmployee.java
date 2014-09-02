@@ -11,5 +11,9 @@ package myabstract;
  * @author mreiff
  */
 public class SalaryPlusCommissionEmployee extends SalariedEmployee{
+
+    public SalaryPlusCommissionEmployee(double hours, double salary, double commission) {
+        super(hours, salary, commission);
+    }
     
 }

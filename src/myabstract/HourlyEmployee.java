@@ -11,5 +11,9 @@ package myabstract;
  * @author mreiff
  */
 public class HourlyEmployee extends Employee{
+
+    public HourlyEmployee(double hours, double salary) {
+        super(hours, salary);
+    }
     
 }
