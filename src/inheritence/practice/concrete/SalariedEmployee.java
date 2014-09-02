@@ -15,5 +15,5 @@ public class SalariedEmployee extends Employee{
     public SalariedEmployee(double salary) {
         super(salary);
     }
-    
+    // the propertie is in the main class
 }

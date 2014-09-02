@@ -15,5 +15,6 @@ public class HourlyEmployee extends Employee{
     public HourlyEmployee(double hours, double salary) {
         super(hours, salary);
     }
+   // the propertie(s) are in the main class
     
 }

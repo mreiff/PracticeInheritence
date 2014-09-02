@@ -15,5 +15,5 @@ public class SalaryPlusCommissionEmployee extends SalariedEmployee{
     public SalaryPlusCommissionEmployee(double salary, double hours, double commission) {
         super(salary);
     }
-    
+    // the propertie(s) are in the main class
 }

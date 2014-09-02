@@ -15,5 +15,5 @@ public class HourlyEmployee extends Employee{
     public HourlyEmployee(double salary, double hours) {
         super(salary, hours);
     }
-    
+    // the property is in the other class
 }
