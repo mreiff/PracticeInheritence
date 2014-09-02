@@ -10,6 +10,6 @@ package myabstract;
  *
  * @author mreiff
  */
-public class Employee {
+public abstract class Employee {
     
 }
