@@ -11,5 +11,7 @@ package inheritence.practice.concrete;
  * @author mreiff
  */
 public class concreteRun {
-    
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
 }

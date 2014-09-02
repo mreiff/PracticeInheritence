@@ -11,5 +11,7 @@ package myabstract;
  * @author mreiff
  */
 public class abstractRun {
-    
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
 }

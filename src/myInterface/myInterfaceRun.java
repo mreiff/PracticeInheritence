@@ -11,5 +11,7 @@ package myInterface;
  * @author mreiff
  */
 public class myInterfaceRun {
-    
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
 }
