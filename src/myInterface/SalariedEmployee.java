@@ -29,7 +29,7 @@ public class SalariedEmployee implements Employee{
 
     @Override
     public void pay() {
-        System.out.println((40*50) + ((40*50) * 0.10));
+        System.out.println(50);
     }
     
 }
