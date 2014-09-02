@@ -10,6 +10,6 @@ package inheritence.practice.concrete;
  *
  * @author mreiff
  */
-public class SalariedEmployee {
+public class SalariedEmployee extends Employee{
     
 }
