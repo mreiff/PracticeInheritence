@@ -11,5 +11,8 @@ package myInterface;
  * @author mreiff
  */
 public interface Employee {
-    
+    public void salary();
+    public void hours();
+    public void commission();
+    public void pay();
 }
