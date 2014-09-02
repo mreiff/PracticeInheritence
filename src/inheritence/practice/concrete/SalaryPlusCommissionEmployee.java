@@ -11,5 +11,9 @@ package inheritence.practice.concrete;
  * @author mreiff
  */
 public class SalaryPlusCommissionEmployee extends SalariedEmployee{
+
+    public SalaryPlusCommissionEmployee(double salary, double hours, double commission) {
+        super(salary);
+    }
     
 }
