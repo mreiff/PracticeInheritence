@@ -16,6 +16,21 @@ public class Employee {
     double hours;
     double pay = (salary * hours) + ((salary * hours) + commission);
 
+    public Employee(double salary) {
+        this.salary = salary;
+    }
+
+    public Employee(double salary, double hours) {
+        this.salary = salary;
+        this.hours = hours;
+    }
+
+    public Employee(double salary, double commission, double hours) {
+        this.salary = salary;
+        this.commission = commission;
+        this.hours = hours;
+    }
+
     public double getSalary() {
         return salary;
     }
