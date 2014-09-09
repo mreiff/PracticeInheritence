@@ -19,9 +19,14 @@ public class myInterfaceRun {
         
         System.out.println("salary employee");
         salEmployee.totalSalary();
+        salEmployee.totalHours();
         System.out.println("hourly employee");
         hourEmployee.totalHours();
+        hourEmployee.totalSalary();
         System.out.println("salary plus commission employee");
+        salPlusCommEmployee.totalSalary();
+        salPlusCommEmployee.totalHours();
+        salPlusCommEmployee.totalCommission();
         salPlusCommEmployee.totalPay();
     }
 }
