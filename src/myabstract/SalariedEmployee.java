@@ -16,6 +16,24 @@ public class SalariedEmployee extends Employee{
         super(hours, salary, commission);
     }
     // the propertie(s) are in the main class
-    
+    @Override
+    public void totalSalary() {
+        System.out.println("50");
+    }
+
+    @Override
+    public void totalHours() {
+        System.out.println("40");
+    }
+
+    @Override
+    public void percentCommission() {
+        System.out.println("10% (.10)");
+    }
+
+    @Override
+    public void totalPay() {
+        System.out.println(40*50 + ((40*50) * .10));
+    }
     
 }

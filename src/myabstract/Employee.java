@@ -31,7 +31,13 @@ public abstract class Employee {
         this.commission = commission;
     }
     
+    public abstract void totalSalary();
     
+    public abstract void totalHours();
+    
+    public abstract void percentCommission();
+    
+    public abstract void totalPay();
 
     public double getHours() {
         return hours;
