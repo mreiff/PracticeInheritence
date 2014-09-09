@@ -19,17 +19,17 @@ public class HourlyEmployee extends Employee{
 
     @Override
     public void totalSalary() {
-        System.out.println("50");
+        System.out.println(50);
     }
 
     @Override
     public void totalHours() {
-        System.out.println("40");
+        System.out.println(40);
     }
 
     @Override
     public void percentCommission() {
-        System.out.println("10% (.10)");
+        System.out.println(10% (.10));
     }
 
     @Override
