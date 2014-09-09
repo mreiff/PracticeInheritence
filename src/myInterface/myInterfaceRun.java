@@ -13,5 +13,15 @@ package myInterface;
 public class myInterfaceRun {
     public static void main(String[] args) {
         // TODO code application logic here
+        SalariedEmployee salEmployee = new SalariedEmployee();
+        HourlyEmployee hourEmployee = new HourlyEmployee();
+        SalaryPlusCommissionEmployee salPlusCommEmployee = new SalaryPlusCommissionEmployee();
+        
+        System.out.println("salary employee");
+        salEmployee.totalSalary();
+        System.out.println("hourly employee");
+        hourEmployee.totalHours();
+        System.out.println("salary plus commission employee");
+        salPlusCommEmployee.totalPay();
     }
 }

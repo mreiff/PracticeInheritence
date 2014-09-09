@@ -13,22 +13,22 @@ package myInterface;
 public class HourlyEmployee implements Employee{
 
     @Override
-    public void salary() {
+    public void totalSalary() {
         System.out.println("50");
     }
 
     @Override
-    public void hours() {
+    public void totalHours() {
         System.out.println("40");
     }
 
     @Override
-    public void commission() {
+    public void totalCommission() {
         System.out.println("0.10");
     }
 
     @Override
-    public void pay() {
+    public void totalPay() {
         System.out.println((50*40));
     }
     

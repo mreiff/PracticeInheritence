@@ -10,25 +10,25 @@ package myInterface;
  *
  * @author mreiff
  */
-public class SalaryPlusCommissionEmployee implements Employee{
+public class SalaryPlusCommissionEmployee extends SalariedEmployee{
 
     @Override
-    public void salary() {
+    public void totalSalary() {
         System.out.println("50");
     }
 
     @Override
-    public void hours() {
+    public void totalHours() {
         System.out.println("40");
     }
 
     @Override
-    public void commission() {
+    public void totalCommission() {
         System.out.println("0.10");
     }
 
     @Override
-    public void pay() {
+    public void totalPay() {
         System.out.println((50 * 40) + ((50*40) + 0.10));
     }
     
